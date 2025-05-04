@@ -112,3 +112,15 @@ test.c:503:5: error: 'main' defined but not used [-Werror=unused-function]
      ^~~~
 cc1.exe: all warnings being treated as errors
 e5b6a2e
+Sat, May  3, 2025  9:26:05 PM: 
+ treemap.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c:154:8: error: redefinition of 'searchTreeMap'
+ Pair * searchTreeMap(TreeMap * tree, void* key) {
+        ^~~~~~~~~~~~~
+treemap.c:133:8: note: previous definition of 'searchTreeMap' was here
+ Pair * searchTreeMap(TreeMap * tree, void* key) {
+        ^~~~~~~~~~~~~
+110a015
