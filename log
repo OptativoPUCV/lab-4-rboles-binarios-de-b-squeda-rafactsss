@@ -142,3 +142,27 @@ Sat, May  3, 2025  9:29:49 PM:
  tests:  18|3
 total_score: 40/70
 8b6b34a
+Sat, May  3, 2025  9:33:36 PM: 
+ treemap.c | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+Compilation failed
+test.c: In function 'upperBound':
+test.c:503:5: error: 'main' is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:606:1: error: expected declaration or statement at end of input
+ }
+ ^
+In file included from test.c:4:0:
+treemap.c:164:15: error: unused variable 'candidate' [-Werror=unused-variable]
+     TreeNode* candidate = NULL;
+               ^~~~~~~~~
+test.c:606:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+At top level:
+test.c:503:5: error: 'main' defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+cc1.exe: all warnings being treated as errors
+dd84ce3
