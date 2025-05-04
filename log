@@ -124,3 +124,15 @@ treemap.c:133:8: note: previous definition of 'searchTreeMap' was here
  Pair * searchTreeMap(TreeMap * tree, void* key) {
         ^~~~~~~~~~~~~
 110a015
+Sat, May  3, 2025  9:27:39 PM: 
+ treemap.c | 7 -------
+ 1 file changed, 7 deletions(-)
+Compilation failed
+C:\Users\rafae\AppData\Local\Temp\cca9k6FA.o: In function `erase_test1':
+C:\Users\rafae\OneDrive\Escritorio\CODIGOS 2025\lab-4-rboles-binarios-de-b-squeda-rafactsss-1/test.c:267: undefined reference to `eraseTreeMap'
+C:\Users\rafae\AppData\Local\Temp\cca9k6FA.o: In function `erase_test2':
+C:\Users\rafae\OneDrive\Escritorio\CODIGOS 2025\lab-4-rboles-binarios-de-b-squeda-rafactsss-1/test.c:281: undefined reference to `eraseTreeMap'
+C:\Users\rafae\AppData\Local\Temp\cca9k6FA.o: In function `erase_test3':
+C:\Users\rafae\OneDrive\Escritorio\CODIGOS 2025\lab-4-rboles-binarios-de-b-squeda-rafactsss-1/test.c:302: undefined reference to `eraseTreeMap'
+collect2.exe: error: ld returned 1 exit status
+bd01fba
