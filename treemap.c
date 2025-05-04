@@ -176,7 +176,12 @@ Pair * upperBound(TreeMap * tree, void* key) {
         }
     }    
 
-    
+    if (candidate != NULL) {
+        tree->current = candidate;
+        return candidate->pair;
+    }
+
+    return NULL;
 
 }
 
