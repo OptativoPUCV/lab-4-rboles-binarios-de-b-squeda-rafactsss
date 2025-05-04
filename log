@@ -136,3 +136,9 @@ C:\Users\rafae\AppData\Local\Temp\cca9k6FA.o: In function `erase_test3':
 C:\Users\rafae\OneDrive\Escritorio\CODIGOS 2025\lab-4-rboles-binarios-de-b-squeda-rafactsss-1/test.c:302: undefined reference to `eraseTreeMap'
 collect2.exe: error: ld returned 1 exit status
 bd01fba
+Sat, May  3, 2025  9:29:49 PM: 
+ treemap.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ tests:  18|3
+total_score: 40/70
+8b6b34a
