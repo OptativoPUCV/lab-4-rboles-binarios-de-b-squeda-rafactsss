@@ -18,3 +18,24 @@ treemap.c:61:15: error: unused variable 'node' [-Werror=unused-variable]
                ^~~~
 cc1.exe: all warnings being treated as errors
 10132f4
+Sat, May  3, 2025  9:10:47 PM: 
+ treemap.c | 3 +++
+ 1 file changed, 3 insertions(+)
+Compilation failed
+test.c: In function 'insertTreeMap':
+test.c:503:5: error: 'main' is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:606:1: error: expected declaration or statement at end of input
+ }
+ ^
+In file included from test.c:4:0:
+treemap.c:62:15: error: variable 'parent' set but not used [-Werror=unused-but-set-variable]
+     TreeNode* parent = NULL;
+               ^~~~~~
+At top level:
+test.c:503:5: error: 'main' defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+cc1.exe: all warnings being treated as errors
+9c996bb
