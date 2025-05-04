@@ -168,8 +168,16 @@ Pair * upperBound(TreeMap * tree, void* key) {
             tree->current = current;
             return current->pair;
         }
+        if (tree->lower_than(key, current->pair->key)) {
+            candidate = current;
+            current = current->left;
+        } else {
+            current = current->right;
+        }
+    }    
 
-        
+    
+
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
